@@ -53,9 +53,5 @@ def ref_quality(refID):
     print ('no h-index found')
  else:
   print ('no author reference link found')
-  #tree = html.fromstring(author_page)
-  #h = tree.xpath('//table[@id="gsc_rsb_st"]//tr[3]/td[@class="gsc_rsb_std"]/text()')
-  #h_all = h[0]
-  #h_2010 = h[1]
  
  return quality
