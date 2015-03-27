@@ -13,7 +13,7 @@ def ref_quality(refID):
  # title
  title = soup.find("h3", {"class": "gs_rt"}).text
  # author links
- authors = test=soup.find("div", {"class": "gs_a"})
+ authors =soup.find("div", {"class": "gs_a"})
  author_ref = []
  for a in authors.find_all('a', href=True):
   author_ref.append(a['href'])
