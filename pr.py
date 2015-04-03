@@ -1,7 +1,7 @@
 import os
 import time
 
-for line in open('/Users/lanxihuang/Desktop/Anusha.txt'):
+for line in open('/Users/lanxi/Desktop/Lanxi.txt'):
 	url = 'http://' + line.strip()
 	try:
 		os.system('pagerank ' + url)
